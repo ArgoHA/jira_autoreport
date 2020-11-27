@@ -1,0 +1,19 @@
+auth:
+  appdynamics:
+  - login: your_login
+  - password: your_password
+
+template_1:
+  project_name: project_name
+  priority: Средний
+  issue_type: Тип проблемы
+  watcher: Иван Ванов
+  assignee: Игнат Иванов
+  subject: Сломалось что-то важное
+  text: >
+    Здесь находится описание проблемы.
+    И здесь тоже.
+  lable: Метка
+  url_apd: http://link_to_dashboard.ru
+  wait_for_dash: 60 # сколько секунд ждать загрузки дашборда
+  xpath: //*[@id="app"]/div/div[2]/div[2] # html путь к элементу, скрин шот которого нужен
